@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <!-- If YY-CHR is 32-bit / expects x86, force x86 to avoid load issues -->
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Smb3Plugin</AssemblyName>
+  </PropertyGroup>
+
+  <!-- If you have a Yychr.dll, add a Reference here:
+  <ItemGroup>
+    <Reference Include="Yychr">
+      <HintPath>..\libs\Yychr.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  -->
+</Project>
